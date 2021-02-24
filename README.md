@@ -1,2 +1,2 @@
-# DAT251_FPL_Monkey
-FPL Monkey is a web application developed as a project in DAT251
+# DAT251 - FPLMonkey
+FPLMonkey is a web application developed as a project in DAT251
