@@ -1,6 +1,6 @@
 # DAT251 - FPLMonkey
-FPLMonkey is a web application developed as a project in DAT251.
-The web application is set up as a maven project with react as frontend.
+FPLMonkey is a web application developed as a project in DAT251,
+the web application is set up as a maven project with react as frontend.
 
 ## React app packaged with Spring Boot.
 
