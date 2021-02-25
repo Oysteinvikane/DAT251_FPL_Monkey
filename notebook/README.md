@@ -1,3 +1,4 @@
+# Installations
 ## Anaconda
 
 ### Step 1 - Create conda environment
