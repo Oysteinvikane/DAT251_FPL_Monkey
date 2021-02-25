@@ -11,6 +11,10 @@
 
 ## Jupyter notebook
 
+### Install jupyter
+
+```conda install -c conda-forge notebook```
+
 ### Open notebook
 
 ```jupyter notebook```
