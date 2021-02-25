@@ -3,7 +3,7 @@
 
 ### Step 1 - Create conda environment
 
-```conda create -n envname python=x.x anaconda```
+```conda create -n envname python=3.6 anaconda```
 
 ### Step 2 - Activate environment
 
