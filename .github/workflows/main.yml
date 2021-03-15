@@ -26,6 +26,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "FPLMonkey" #Must be unique in Heroku
+          heroku_app_name: "fplmonkey" #Must be unique in Heroku
           heroku_email: "hvikane94@gmail.com"
           appdir: "backend" # <- This will point to the api folder in your project
