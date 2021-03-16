@@ -12,8 +12,7 @@ For running the jar file you can use "java -jar target/fplmapp-0.0.1-SNAPSHOT.ja
 After running the jar file you can navigate to http://localhost:8080 and you will see the application.
 
 ## CI/CD
-Github actions with Heroku deployment.
-Deployed to fplmonkey.herokuapp.com 
+Github actions with Heroku deployment to fplmonkey.herokuapp.com 
 
 ## ML
 
