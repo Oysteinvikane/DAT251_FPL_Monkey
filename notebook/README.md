@@ -1,19 +1,15 @@
 # Installations
 ## Anaconda
 
-### Step 1 - Create conda environment
+### Step 1 - Update conda environment
 
-```conda create -n envname python=3.6 anaconda```
+```conda env update```
 
 ### Step 2 - Activate environment
 
-```conda activate envname```
+```conda activate dat255-drug```
 
 ## Jupyter notebook
-
-### Install jupyter
-
-```conda install -c conda-forge notebook```
 
 ### Open notebook
 
