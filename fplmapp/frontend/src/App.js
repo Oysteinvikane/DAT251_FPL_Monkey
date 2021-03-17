@@ -9,26 +9,13 @@ import { Player } from './Player';
 import { NoMatch } from './NoMatch';
 
 class App extends Component {
+
+    
  
     state = {};
- 
-    componentDidMount() {
-        setInterval(this.countdown, 250);
-    }
- 
-    countdown = () => {
-        fetch('/api/countdown')
-            .then(response => response.text())
-            .then(message => {
-                this.setState({message: message});
-            });
-    };
 
     render() {
-        return (
-            
-            
-
+        return (          
             <div className="App">
                 <React.Fragment>
                     <Router>
@@ -40,7 +27,6 @@ class App extends Component {
                         </Switch>
                     </Router>
                 </React.Fragment>
-                <h1 className="App-title">{this.state.message}</h1>
             </div>
         );
     }
