@@ -4,7 +4,7 @@ import './Home.css'
 
 export const Home = (props) => (
 
-    <header className="Home-header">
+<header className="Home-header">
     <img src={logo} className="Home-logo" alt="logo" />
 
     <p>

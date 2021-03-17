@@ -29,7 +29,7 @@ export const NavigationBar = () => (
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Form className="form-right">
-          <FormControl type="text" placeholder="Search player" className="" />
+          <FormControl type="text" placeholder="Search " className="" />
         </Form>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">

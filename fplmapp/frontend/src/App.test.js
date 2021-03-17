@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import { NavigationBar } from './components/NavigationBar';
 
-// test('renders learn react link', () => {
-//   render(<App />);
-//   const linkElement = screen.getByText(/learn react/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
+test('renders navigation bar', () => {
+    render(<NavigationBar />);
+    expect(screen.getByText(/Home/)).toBeInTheDocument();
+});
