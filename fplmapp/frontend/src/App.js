@@ -1,7 +1,13 @@
 import React, {Component} from 'react';
-import logo from './logos/fplm_logo.png';
+
 import './App.css';
- 
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { NavigationBar } from './components/NavigationBar';
+import { Home } from './Home';
+import { Player } from './Player';
+import { NoMatch } from './NoMatch';
+
 class App extends Component {
  
     state = {};
@@ -17,14 +23,24 @@ class App extends Component {
                 this.setState({message: message});
             });
     };
- 
+
     render() {
         return (
+            
+            
+
             <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h1 className="App-title">{this.state.message}</h1>
-                </header>
+                <React.Fragment>
+                    <Router>
+                        <NavigationBar />
+                        <Switch>
+                            <Route exact path="/" component={Home} />
+                            <Route path="/player" component={Player} />
+                            <Route component={NoMatch} />
+                        </Switch>
+                    </Router>
+                </React.Fragment>
+                <h1 className="App-title">{this.state.message}</h1>
             </div>
         );
     }
