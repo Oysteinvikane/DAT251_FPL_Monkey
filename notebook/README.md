@@ -7,7 +7,7 @@
 
 ### Step 2 - Activate environment
 
-```conda activate dat255-drug```
+```conda activate fplmonkey```
 
 ## Jupyter notebook
 
