@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Nav, Navbar, Form, FormControl, Button} from 'react-bootstrap';
 import styled from 'styled-components';
 import logo from '../logos/logo.png';
@@ -21,18 +21,24 @@ const Styles = styled.div`
   }
 `;
 
+export const NavigationBar = ({parentCallback}) => {
 
-export const NavigationBar = () => (
+  const [playerName, setplayerName] = useState('');
+
+  function updateValue(evt){
+    let nameHolder = { ...playerName }
+    nameHolder = evt.target.value;
+    setplayerName(nameHolder);
+  }
+  return (
     <Styles>
       <Navbar collapseOnSelect expand="lg" fixed="top">
         <Navbar.Brand href="/">FPLMonkey
             <img alt="" src={logo} width="30%" height="20%"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-        <Form className="form-right">
-          <FormControl name="playerName" type="text" placeholder="Search " className="" />
-          <Button type="submit" variant="outline-success">Search</Button>
-        </Form>
+        <FormControl type="text" value={playerName} placeholder="Search" onChange={updateValue}/>
+        <Button type="submit" variant="outline-success" onClick={() => parentCallback(playerName)} >Search</Button>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item> 
@@ -42,3 +48,5 @@ export const NavigationBar = () => (
       </Navbar>
     </Styles>
   )
+  }
+
