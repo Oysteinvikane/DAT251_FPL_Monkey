@@ -7,15 +7,18 @@ import { NavigationBar } from './components/NavigationBar';
 import { Home } from './Home';
 import { Player } from './Player';
 import { NoMatch } from './NoMatch';
+import { CountdownClock} from './components/CountdownClock'
 
 class App extends Component {
-
-    
  
     state = {};
+    
 
     render() {
-        return (          
+        return (
+            
+            
+
             <div className="App">
                 <React.Fragment>
                     <Router>
@@ -27,9 +30,12 @@ class App extends Component {
                         </Switch>
                     </Router>
                 </React.Fragment>
+                <h1 className="App-title">{this.state.message}</h1>
             </div>
         );
     }
+
+    
 }
  
 export default App;
