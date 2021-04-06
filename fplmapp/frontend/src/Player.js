@@ -1,13 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
-const GridWrapper = styled.div`
-  background:#f3f0e6
-`; 
-export const Player = () => (
-  <GridWrapper>
-    <h2>Player Page</h2>
-    <p>State at ceiling lay on arms while you're using the keyboard so this human feeds me.</p>
-    <p>I am a kitty cat, sup, feed me, no cares in the world</p>
-    <p>Meow meow, I tell my human purr for no reason but to chase after</p>
-  </GridWrapper>
+ 
+export const Player = (props) => (
+  <header className="Player-header">
+
+        <p>
+            Player page
+        </p>
+        <p>
+            Here you will soon see all the stats for your chosen player.
+        </p>
+</header>
 )

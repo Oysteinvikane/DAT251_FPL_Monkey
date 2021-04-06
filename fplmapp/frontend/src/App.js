@@ -9,14 +9,9 @@ import { Player } from './Player';
 import { NoMatch } from './NoMatch';
 
 class App extends Component {
-
-    
- 
-    state = {};
-
     render() {
         return (          
-            <div className="App">
+            <div>
                 <React.Fragment>
                     <Router>
                         <NavigationBar />
