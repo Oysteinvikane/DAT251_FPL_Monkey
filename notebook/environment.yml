@@ -1,6 +1,7 @@
 name: fplmonkey
 channels:
   - pytorch
+  - anaconda
   - fastai
   - conda-forge
   - defaults
@@ -16,6 +17,7 @@ dependencies:
   - beautifulsoup4=4.9.3=pyha847dfd_0
   - blas=1.0=mkl
   - bleach=3.3.0=pyh44b312d_0
+  - bottleneck=1.3.2=py39he3068b8_1
   - brotlipy=0.7.0=py39h9ed2024_1003
   - bs4=4.9.3=hd3eb1b0_0
   - ca-certificates=2021.1.19=hecd8cb5_1
@@ -23,17 +25,25 @@ dependencies:
   - certifi=2020.12.5=py39hecd8cb5_0
   - cffi=1.14.5=py39h319c39b_0
   - chardet=4.0.0=py39hecd8cb5_1003
+  - click=7.1.2=pyhd3eb1b0_0
   - cryptography=3.4.6=py39h2fd3fbb_0
   - cycler=0.10.0=py39hecd8cb5_0
   - cymem=2.0.5=py39h23ab428_0
   - cython-blis=0.7.4=py39h9ed2024_1
+  - dataclasses=0.8=pyh6d0b6a4_7
+  - dbus=1.13.6=ha13b53f_2
   - decorator=4.4.2=py_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
   - entrypoints=0.3=pyhd8ed1ab_1003
+  - expat=2.3.0=he49afe7_0
   - fastai=2.2.7=py_0
   - fastcore=1.3.19=py_0
   - fastprogress=1.0.0=pyh39e3cac_0
+  - flask=1.1.2=pyhd3eb1b0_0
   - freetype=2.10.4=ha233b18_0
+  - gettext=0.19.8.1=h7937167_1005
+  - glib=2.68.0=he49afe7_2
+  - glib-tools=2.68.0=he49afe7_2
   - icu=58.2=h0a44026_3
   - idna=2.10=pyhd3eb1b0_0
   - importlib-metadata=3.7.3=py39h6e9494a_0
@@ -41,24 +51,36 @@ dependencies:
   - ipykernel=5.5.0=py39h71a6800_1
   - ipython=7.21.0=py39h71a6800_0
   - ipython_genutils=0.2.0=py_1
+  - ipywidgets=7.6.3=pyhd3deb0d_0
+  - itsdangerous=1.1.0=pyhd3eb1b0_0
   - jedi=0.18.0=py39h6e9494a_2
   - jinja2=2.11.3=pyh44b312d_0
   - joblib=1.0.1=pyhd8ed1ab_0
   - jpeg=9b=he5867d9_2
   - jsonschema=3.0.2=py39hecd8cb5_0
+  - jupyter=1.0.0=py39hecd8cb5_7
   - jupyter_client=6.1.12=pyhd8ed1ab_0
+  - jupyter_console=6.4.0=pyhd8ed1ab_0
   - jupyter_core=4.7.1=py39h6e9494a_0
   - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0
+  - jupyterlab_widgets=1.0.0=pyhd8ed1ab_1
   - kiwisolver=1.3.1=py39h23ab428_0
+  - krb5=1.17.2=h60d9502_0
   - lcms2=2.11=h92f6f08_0
+  - libclang=11.1.0=default_he082bbe_0
   - libcxx=11.1.0=habf9029_0
+  - libedit=3.1.20191231=h0678c8f_2
   - libffi=3.3=h046ec9c_2
   - libgfortran=3.0.1=h93005f0_2
+  - libglib=2.68.0=hd556434_2
   - libiconv=1.16=h1de35cc_0
+  - libllvm11=11.1.0=hd011deb_1
   - libopenblas=0.3.10=h0794777_0
   - libpng=1.6.37=ha441bb4_0
+  - libpq=13.1=h052a64a_2
   - libsodium=1.0.18=hbcb3906_1
   - libtiff=4.2.0=h9da4c3f_0
+  - libuv=1.40.0=haf1e3a3_0
   - libwebp-base=1.2.0=h9ed2024_0
   - libxml2=2.9.10=h7cdb67c_3
   - libxslt=1.1.34=h83b36ba_0
@@ -74,6 +96,7 @@ dependencies:
   - mkl_fft=1.3.0=py39ha059aab_0
   - mkl_random=1.0.2=py39h16bde0e_0
   - murmurhash=1.0.5=py39h23ab428_0
+  - mysql-common=8.0.23=h694c41f_1
   - nbclient=0.5.3=pyhd8ed1ab_0
   - nbconvert=6.0.7=py39h6e9494a_3
   - nbformat=5.1.2=pyhd8ed1ab_1
@@ -81,15 +104,20 @@ dependencies:
   - nest-asyncio=1.4.3=pyhd8ed1ab_0
   - ninja=1.10.2=py39hf7b0b51_0
   - notebook=6.2.0=py39h6e9494a_0
+  - nspr=4.30=hcd9eead_0
+  - nss=3.47=hc0980d9_0
+  - numexpr=2.7.3=py39h16bde0e_0
   - numpy=1.19.2=py39he57783f_0
   - numpy-base=1.19.2=py39hde55871_0
+  - nvidia-ml-py3=7.352.0=py_0
   - olefile=0.46=py_0
-  - openssl=1.1.1j=h9ed2024_0
+  - openssl=1.1.1k=h9ed2024_0
   - packaging=20.9=pyh44b312d_0
   - pandas=1.2.3=py39hb2f4e1b_0
   - pandoc=2.12=h0d85af4_0
   - pandocfilters=1.4.2=py_1
   - parso=0.8.1=pyhd8ed1ab_0
+  - pcre=8.44=hb1e8313_0
   - pexpect=4.8.0=pyh9f0ad1d_2
   - pickleshare=0.7.5=py_1003
   - pillow=8.1.2=py39h5270095_0
@@ -98,11 +126,14 @@ dependencies:
   - preshed=3.0.2=py39h23ab428_1
   - prometheus_client=0.9.0=pyhd3deb0d_0
   - prompt-toolkit=3.0.17=pyha770c72_0
+  - prompt_toolkit=3.0.17=hd8ed1ab_0
   - ptyprocess=0.7.0=pyhd3deb0d_0
   - pycparser=2.20=pyh9f0ad1d_2
   - pygments=2.8.1=pyhd8ed1ab_0
   - pyopenssl=20.0.1=pyhd3eb1b0_1
   - pyparsing=2.4.7=pyh9f0ad1d_0
+  - pyqt=5.9.2=py39h23ab428_6
+  - pyqt5-sip=4.19.18=py39hd8f94c5_7
   - pyrsistent=0.17.3=py39hcbf5805_2
   - pysocks=1.7.1=py39hecd8cb5_0
   - python=3.9.2=h2502468_0_cpython
@@ -112,12 +143,16 @@ dependencies:
   - pytz=2021.1=pyhd3eb1b0_0
   - pyyaml=5.4.1=py39h9ed2024_1
   - pyzmq=22.0.3=py39h7fec2f1_1
+  - qt=5.9.7=h468cd18_1
+  - qtconsole=5.0.3=pyhd8ed1ab_0
+  - qtpy=1.9.0=py_0
   - readline=8.0=h0678c8f_2
   - requests=2.25.1=pyhd3eb1b0_0
   - scikit-learn=0.24.1=py39hb2f4e1b_0
   - scipy=1.6.1=py39h2515648_0
   - send2trash=1.5.0=py_0
   - setuptools=49.6.0=py39h6e9494a_3
+  - sip=4.19.13=py39h23ab428_0
   - six=1.15.0=pyh9f0ad1d_0
   - soupsieve=2.2=pyhd3eb1b0_0
   - spacy=2.3.5=py39hf7b0b51_0
@@ -138,7 +173,9 @@ dependencies:
   - wasabi=0.8.2=pyhd3eb1b0_0
   - wcwidth=0.2.5=pyh9f0ad1d_2
   - webencodings=0.5.1=py_1
+  - werkzeug=1.0.1=pyhd3eb1b0_0
   - wheel=0.36.2=pyhd3deb0d_0
+  - widgetsnbextension=3.5.1=py39h6e9494a_4
   - xz=5.2.5=haf1e3a3_1
   - yaml=0.2.5=haf1e3a3_0
   - zeromq=4.3.4=h1c7c35f_0
