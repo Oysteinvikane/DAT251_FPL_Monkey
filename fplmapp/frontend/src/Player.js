@@ -1,13 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
+import logo from './logos/fplm_logo.png';
+import { useState } from 'react';
 const GridWrapper = styled.div`
   background:#f3f0e6
-`; 
-export const Player = () => (
-  <GridWrapper>
-    <h2>Player Page</h2>
-    <p>State at ceiling lay on arms while you're using the keyboard so this human feeds me.</p>
-    <p>I am a kitty cat, sup, feed me, no cares in the world</p>
-    <p>Meow meow, I tell my human purr for no reason but to chase after</p>
-  </GridWrapper>
-)
+  `;
+
+
+export const Player = (props) => {
+
+  const [message, setMessage] = useState('');
+  const [playerName, setPlayerName] = useState('');
+
+  
+    fetch('/playerPP')
+      .then(response => response.text())
+      .then(message => {
+        setMessage(message);
+      })
+    
+  return (  
+    <header className="Home-header" >
+      <img src={logo} className="Home-logo" alt="logo" />
+
+        <p>
+          {message}
+        </p>   
+    </header >);
+};
+
+export default Player;

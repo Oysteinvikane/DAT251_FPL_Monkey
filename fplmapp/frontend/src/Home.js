@@ -8,7 +8,7 @@ export const Home = (props) => (
     <img src={logo} className="Home-logo" alt="logo" />
 
         <p>
-            Welcome to FPLMonkeys score predicter for Premier leagues Fantasy Footbal!
+            Welcome to FPLMonkeys score predicter for Premier leagues Fantasy Football!
         </p>
         <p>
             Begin by searching up players at the top!
