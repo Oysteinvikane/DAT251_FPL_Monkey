@@ -14,12 +14,14 @@ class App extends Component {
         super();
         this.state = {
           playerName: ""
-        };
+        };    
       }
 
     callback = (name) => {
-        this.setState({playerName: name});
-        console.log(this.state.playerName)
+        this.setState(
+            {playerName: name}, 
+            function () {console.log("Playername: " + this.state.playerName)}
+        );
     }
 
 
@@ -28,10 +30,10 @@ class App extends Component {
             <div className="App">
                 <React.Fragment>
                     <Router>
-                        <NavigationBar parentCallback={this.callback} />
+                        <NavigationBar history={this.props.history} parentCallback={this.callback} />
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            <Route path="/player" component={Player} />
+                            <Route playerName={this.state.playerName} path="/player" component={Player} />
                             <Route component={NoMatch} />
                         </Switch>
                     </Router>

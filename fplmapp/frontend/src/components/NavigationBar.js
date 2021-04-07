@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
+import React, {useState, useCallback} from 'react';
 import {Nav, Navbar, Form, FormControl, Button} from 'react-bootstrap';
 import styled from 'styled-components';
 import logo from '../logos/logo.png';
+
 
 const Styles = styled.div`
   .navbar { background-color: #222; }
@@ -21,7 +22,7 @@ const Styles = styled.div`
   }
 `;
 
-export const NavigationBar = ({parentCallback}) => {
+export const NavigationBar = ({ parentCallback}) => {
 
   const [playerName, setplayerName] = useState('');
 
@@ -30,6 +31,7 @@ export const NavigationBar = ({parentCallback}) => {
     nameHolder = evt.target.value;
     setplayerName(nameHolder);
   }
+
   return (
     <Styles>
       <Navbar collapseOnSelect expand="lg" fixed="top">
