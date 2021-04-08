@@ -3,23 +3,19 @@ package no.fplmonkey.fplmapp;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
 public class WebMainController {
 
-    @RequestMapping(value = { "/", "/{x:[\\w\\-]+}", "/{x:^(?!api$).*$}/**/{y:[\\w\\-]+}" })
-    public String getIndex(HttpServletRequest request) {
-        return "/index.html";
+    @GetMapping(value = "/frontend")
+    public String home() {
+        return "index.html";
     }
 
-    // @RequestMapping(value = "/home")
-    // public String home() {
-    //     return "home";
-    // }
+    @GetMapping(value = "/player")
+    public String player() {
+        return "player.js";
+    }
 
-    // @RequestMapping(value = "/player")
-    // public String player() {
-    //     return "player";
-    // }
 }
