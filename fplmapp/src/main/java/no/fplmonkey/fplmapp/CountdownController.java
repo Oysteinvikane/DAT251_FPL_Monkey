@@ -34,6 +34,6 @@ public class CountdownController {
             e.printStackTrace();
         }
 
-        return "End of project: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s " + "\n";
+        return "Next game week: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s " + "\n";
     }
 }

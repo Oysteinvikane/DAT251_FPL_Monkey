@@ -8,8 +8,10 @@ import { Home } from './Home';
 import { Player } from './Player';
 import { NoMatch } from './NoMatch';
 
+
 class App extends Component {
-    render() {
+
+   render() {
         return (          
             <div>
                 <React.Fragment>
