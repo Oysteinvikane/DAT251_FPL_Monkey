@@ -14,6 +14,8 @@ class App extends Component {
  
     state = {};
 
+    
+
     render() {
         return (          
             <div className="App">
@@ -22,7 +24,7 @@ class App extends Component {
                         <NavigationBar />
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            <Route path="/player" component={Player} />
+                            <Route path="/player" render={(props) => <Player name = 'Harry Kane' />} />
                             <Route component={NoMatch} />
                         </Switch>
                     </Router>
