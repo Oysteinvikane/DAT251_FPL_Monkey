@@ -22,9 +22,9 @@ const Styles = styled.div`
   }
 `;
 
-export const NavigationBar = ({ parentCallback}) => {
+export const NavigationBar = ({ name, parentCallback}) => {
 
-  const [playerName, setplayerName] = useState('');
+  const [playerName, setplayerName] = useState(name);
 
   function updateValue(evt){
     let nameHolder = { ...playerName }
@@ -40,7 +40,7 @@ export const NavigationBar = ({ parentCallback}) => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <FormControl type="text" value={playerName} placeholder="Search" onChange={updateValue}/>
-        <Button type="submit" variant="outline-success" onClick={() => parentCallback(playerName)} >Search</Button>
+        <Button type="submit" variant="outline-success" onClick={() => parentCallback(playerName, name=playerName)} >Search</Button>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item> 

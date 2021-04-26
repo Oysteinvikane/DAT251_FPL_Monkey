@@ -7,7 +7,7 @@ import { NavigationBar } from './components/NavigationBar.js';
 import { Home } from './Home';
 import { Player } from './Player';
 import { NoMatch } from './NoMatch';
-import { CountdownClock} from './components/CountdownClock'
+
 
 class App extends Component {
     constructor() {
@@ -17,6 +17,7 @@ class App extends Component {
         };    
       }
 
+
     callback = (name) => {
         this.setState(
             {playerName: name}, 
@@ -24,16 +25,17 @@ class App extends Component {
         );
     }
 
-
     render() {
         return (
             <div className="App">
                 <React.Fragment>
                     <Router>
-                        <NavigationBar history={this.props.history} parentCallback={this.callback} />
+                        <NavigationBar name={this.state.playerName} parentCallback={this.callback} />
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            <Route playerName={this.state.playerName} path="/player" component={Player} />
+                            <Route path="/player" render={(props) => (
+                                <Player name={this.state.playerName} />
+                                )} />
                             <Route component={NoMatch} />
                         </Switch>
                     </Router>
