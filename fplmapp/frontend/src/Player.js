@@ -13,14 +13,13 @@ export const Player = ({name}) => {
   const [message, setMessage] = useState('');
   const [playerName, setPlayerName] = useState(name);
 
-  const playerURI = encodeURIComponent(name)
-
-  
-    fetch('/playerPP?name=' + playerURI)
-      .then(response => response.text())
-      .then(message => {
-        setMessage(message);
-      })
+  const encodedvalue = encodeURIComponent(name)
+    fetch('/flask/playerPP?name=' + encodedvalue)
+    .then(response => response.text())
+    .then(message => {
+    setMessage(message);
+    console.log("loaded")
+  });
     
   return ( 
     <header className="Home-header" >
