@@ -25,6 +25,8 @@ class App extends Component {
         );
     }
 
+    
+
     render() {
         return (
             <div className="App">
@@ -33,9 +35,13 @@ class App extends Component {
                         <NavigationBar name={this.state.playerName} parentCallback={this.callback} />
                         <Switch>
                             <Route exact path="/" component={Home} />
+<<<<<<< HEAD
                             <Route path="/player" render={(props) => (
                                 <Player name={this.state.playerName} />
                                 )} />
+=======
+                            <Route path="/player" render={(props) => <Player name = 'Harry Kane' />} />
+>>>>>>> main
                             <Route component={NoMatch} />
                         </Switch>
                     </Router>
