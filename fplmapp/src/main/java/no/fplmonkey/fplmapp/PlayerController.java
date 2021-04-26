@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class PlayerController {
 
 
-    @GetMapping(value = "/**/{path:[^\\.]*}")
+    @GetMapping(value = "/player")
     public String forward() {
         return "forward:/";
     }
