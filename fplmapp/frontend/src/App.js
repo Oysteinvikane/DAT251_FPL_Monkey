@@ -17,27 +17,26 @@ class App extends Component {
         };    
       }
 
-
-    callback = (name) => {
+      callback = (name) => {
         this.setState(
             {playerName: name}, 
             function () {console.log("Playername: " + this.state.playerName)}
         );
     }
+ 
+    
 
     
 
     render() {
-        return (
-            <div className="App">
+        return (          
+            <div>
                 <React.Fragment>
                     <Router>
                         <NavigationBar name={this.state.playerName} parentCallback={this.callback} />
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            <Route path="/player" render={(props) => (
-                                <Player name={this.state.playerName} />
-                                )} />
+                            <Route path="/player" render={(props) => <Player name={this.state.playerName} />} />
                             <Route component={NoMatch} />
                         </Switch>
                     </Router>

@@ -50,5 +50,9 @@ export const NavigationBar = ({ name, parentCallback}) => {
       </Navbar>
     </Styles>
   )
+<<<<<<< HEAD
   }
 
+=======
+  }
+>>>>>>> main
