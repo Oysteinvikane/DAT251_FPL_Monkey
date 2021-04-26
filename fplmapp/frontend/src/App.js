@@ -11,7 +11,13 @@ import { NoMatch } from './NoMatch';
 
 class App extends Component {
 
+<<<<<<< HEAD
    render() {
+=======
+    
+
+    render() {
+>>>>>>> main
         return (          
             <div>
                 <React.Fragment>
@@ -19,7 +25,7 @@ class App extends Component {
                         <NavigationBar />
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            <Route path="/player" component={Player} />
+                            <Route path="/player" render={(props) => <Player name = 'Harry Kane' />} />
                             <Route component={NoMatch} />
                         </Switch>
                     </Router>

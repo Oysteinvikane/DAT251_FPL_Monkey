@@ -1,26 +1,33 @@
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from flask import Flask, request
+from flask import Flask, request, redirect
+from requests import get
 
 app = Flask(__name__)
+
+path = Path('./')
+
+@app.route('/playerPP', methods=['GET'])
+def player():
+    name = request.args.get('name')
+    df = pd.read_csv(path/'data/predictions_for_season_1920_gw_20.csv', index_col=0)
+    if name : 
+        arr = np.array([name])
+    else : 
+        arr = np.array(['Martin Kelly'])
+    player_prediction = df[df['player'] == arr[0]].predicted_points
+    return player_prediction.to_json()
+
+@app.route('/players', methods=['GET'])
+def getPlayers():
+    df = pd.read_csv(path/'data/predictions_for_season_1920_gw_20.csv')
+    players = df['player']
+    return players.to_json()
+
+
 
 
 
 if __name__ == '__main__':
-    app.run(debug=true)
-
-path = Path('./')
-
-@app.route('/predict')
-def prediction():
-    #player = request.fore['player']
-    preds = pd.read_csv(path/'notebook/data/predictions_for_season_1920_gw_20.csv')
-    arr = np.array(['Martin Kelly'])
-    player_prediction = preds[preds['player'] == arr[0]].predicted_points.to_numpy()
-    return "Predicted points for " + arr[0] + " in gw 20 is " + str(player_prediction[0])
-
-
-
-
-
+    app.run(host='0.0.0.0', port=5000, debug=False)
