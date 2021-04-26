@@ -1,8 +1,8 @@
-import React, {useState, useCallback} from 'react';
-import {Nav, Navbar, Form, FormControl, Button} from 'react-bootstrap';
+import React, {useState} from 'react';
+import {Nav, Navbar, FormControl, Button, Form} from 'react-bootstrap';
 import styled from 'styled-components';
 import logo from '../logos/logo.png';
-
+import {useHistory} from 'react-router-dom';
 
 const Styles = styled.div`
   .navbar { background-color: #222; }
@@ -15,21 +15,24 @@ const Styles = styled.div`
     color: #9FFFCB;
     &:hover { color: white; }
   }
-  .form-right {
-    position: absolute !important;
-    right: 25%;
-    left: 25%;
-  }
 `;
 
-export const NavigationBar = ({ name, parentCallback}) => {
+export const NavigationBar = ({ parentCallback}) => {
 
-  const [playerName, setplayerName] = useState(name);
+  let history = useHistory();
+  const [playerName, setplayerName] = useState('');
 
   function updateValue(evt){
     let nameHolder = { ...playerName }
     nameHolder = evt.target.value;
     setplayerName(nameHolder);
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    history.push('/player')
+    parentCallback(playerName)
+
   }
 
   return (
@@ -39,8 +42,10 @@ export const NavigationBar = ({ name, parentCallback}) => {
             <img alt="" src={logo} width="30%" height="20%"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-        <FormControl type="text" value={playerName} placeholder="Search" onChange={updateValue}/>
-        <Button type="submit" variant="outline-success" onClick={() => parentCallback(playerName, name=playerName)} >Search</Button>
+        <Form className="form-inline" onSubmit={(handleSubmit)}>
+          <FormControl className="form-control mr-sm-2" type="text" value={playerName} placeholder="Search" autoComplete="on" onChange={updateValue}/>
+          <Button className="btn btn-outline-success my-2 my-sm-0" type="submit" variant="outline-success">Search</Button>
+        </Form>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item> 

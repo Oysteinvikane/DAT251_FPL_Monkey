@@ -1,18 +1,13 @@
-import React, { useEffect } from 'react';
-import styled from 'styled-components';
+import React from 'react';
 import logo from './logos/fplm_logo.png';
-import { useParams } from "react-router-dom";
-import { useState } from 'react';
-const GridWrapper = styled.div`
-  background:#f3f0e6
-  `;
+import { useState, useEffect } from 'react';
+
 
 
 export const Player = ({name}) => {
 
   const [message, setMessage] = useState('');
-  const [playerName, setPlayerName] = useState(name);
-
+  let showmsg = "";
   const encodedvalue = encodeURIComponent(name)
     fetch('/flask/playerPP?name=' + encodedvalue)
     .then(response => response.text())
@@ -20,15 +15,15 @@ export const Player = ({name}) => {
     setMessage(message);
     console.log("loaded")
   });
+
     
   return ( 
     <header className="Home-header" >
-      <img src={logo} className="Home-logo" alt="logo" />
-
-
-        <p>
-          {message}
-        </p>   
+      <div>
+        <p>Playername: {name}</p>
+        <p>Playerstats: {message}</p>
+      </div>
+         
     </header >);
 };
 

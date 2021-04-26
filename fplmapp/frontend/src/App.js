@@ -33,7 +33,7 @@ class App extends Component {
             <div>
                 <React.Fragment>
                     <Router>
-                        <NavigationBar name={this.state.playerName} parentCallback={this.callback} />
+                        <NavigationBar parentCallback={this.callback} />
                         <Switch>
                             <Route exact path="/" component={Home} />
                             <Route path="/player" render={(props) => <Player name={this.state.playerName} />} />
