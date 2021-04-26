@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
- 
-export const Player = (props) => (
-  <header className="Player-header">
-
-        <p>
-            Player page
-        </p>
-        <p>
-            Here you will soon see all the stats for your chosen player.
-        </p>
-</header>
-)
-=======
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import logo from './logos/fplm_logo.png';
@@ -28,14 +13,13 @@ export const Player = ({name}) => {
   const [message, setMessage] = useState('');
   const [playerName, setPlayerName] = useState(name);
 
-  const playerURI = encodeURIComponent(name)
-
-  
-    fetch('/playerPP?name=' + playerURI)
-      .then(response => response.text())
-      .then(message => {
-        setMessage(message);
-      })
+  const encodedvalue = encodeURIComponent(name)
+    fetch('/flask/playerPP?name=' + encodedvalue)
+    .then(response => response.text())
+    .then(message => {
+    setMessage(message);
+    console.log("loaded")
+  });
     
   return ( 
     <header className="Home-header" >
@@ -49,4 +33,3 @@ export const Player = ({name}) => {
 };
 
 export default Player;
->>>>>>> main

@@ -10,22 +10,33 @@ import { NoMatch } from './NoMatch';
 
 
 class App extends Component {
+    constructor() {
+        super();
+        this.state = {
+          playerName: ""
+        };    
+      }
 
-<<<<<<< HEAD
-   render() {
-=======
+      callback = (name) => {
+        this.setState(
+            {playerName: name}, 
+            function () {console.log("Playername: " + this.state.playerName)}
+        );
+    }
+ 
+    
+
     
 
     render() {
->>>>>>> main
         return (          
             <div>
                 <React.Fragment>
                     <Router>
-                        <NavigationBar />
+                        <NavigationBar name={this.state.playerName} parentCallback={this.callback} />
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            <Route path="/player" render={(props) => <Player name = 'Harry Kane' />} />
+                            <Route path="/player" render={(props) => <Player name={this.state.playerName} />} />
                             <Route component={NoMatch} />
                         </Switch>
                     </Router>
