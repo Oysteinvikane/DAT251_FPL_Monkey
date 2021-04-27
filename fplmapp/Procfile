@@ -1,3 +1,2 @@
 web: java -jar target/fplmapp-0.0.1-SNAPSHOT.jar
-web: gunicorn app:app
-web: gunicorn run:app
+
