@@ -1,13 +1,11 @@
 import React from 'react';
-import logo from './logos/fplm_logo.png';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 
 
 export const Player = ({name}) => {
 
   const [message, setMessage] = useState('');
-  let showmsg = "";
   const encodedvalue = encodeURIComponent(name)
     fetch('/flask/playerPP?name=' + encodedvalue)
     .then(response => response.text())
