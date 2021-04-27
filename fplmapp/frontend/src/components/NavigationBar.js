@@ -23,16 +23,15 @@ export const NavigationBar = ({ parentCallback}) => {
   const [playerName, setplayerName] = useState('');
 
   function updateValue(evt){
-    let nameHolder = { ...playerName }
+    let nameHolder = { ...playerName };
     nameHolder = evt.target.value;
     setplayerName(nameHolder);
   }
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    parentCallback(playerName);
     history.push('/player')
-    parentCallback(playerName)
-
   }
 
   return (

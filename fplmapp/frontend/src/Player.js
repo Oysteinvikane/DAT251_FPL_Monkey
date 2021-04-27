@@ -1,50 +1,9 @@
 import React from 'react';
-<<<<<<< HEAD
-import { useState } from 'react';
-
-=======
 import logo from './logos/fplm_logo.png';
-import { useState } from 'react';
->>>>>>> main
 
+  export const Player = ({player}) => {
 
-  export const Player = ({name}) => {
-
-<<<<<<< HEAD
-  const [message, setMessage] = useState('');
-  const encodedvalue = encodeURIComponent(name)
-    fetch('/flask/playerPP?name=' + encodedvalue)
-    .then(response => response.text())
-    .then(message => {
-    setMessage(message);
-    console.log("loaded")
-  });
-
-    
-  return ( 
-    <header className="Home-header" >
-      <div>
-        <p>Playername: {name}</p>
-        <p>Playerstats: {message}</p>
-      </div>
-         
-    </header >);
-};
-
-export default Player;
-=======
-    const [message, setMessage] = useState([]);
-  
-  
-    const encodedvalue = encodeURIComponent(name)
-      fetch('/flask/playerPP?name=' + encodedvalue)
-      .then(response => response.json())
-      .then(message => {
-      setMessage(...message);
-      console.log('loaded')
-    });
-  
-    if (message.length === 0) { //empty message
+    if (player.player === undefined) { //empty message
       return ( 
         <header className="Home-header" >
           <img src={logo} className="Home-logo" alt="logo" />
@@ -53,20 +12,20 @@ export default Player;
             </p>
         </header >);
     } else {
-    return ( 
+    return( 
       <header className="Home-header" >
         <img src={logo} className="Home-logo" alt="logo" />
           <p>
-            Player: {message.player}
+            Player: {player.player}
           </p>
           <p>
-            Season: {message.season} Gameweek: {message.gw}
+            Season: {player.season} Gameweek: {player.gw}
           </p>
           <p>
-            Opponent next gameweek: {message.opponent_team}
+            Opponent next gameweek: {player.opponent_team}
           </p>
           <p>
-            Predicted points for next gameweek: {message.predicted_points}
+            Predicted points for next gameweek: {player.predicted_points}
           </p>
       </header >);
     }
@@ -74,4 +33,3 @@ export default Player;
   
   
   export default Player;
->>>>>>> main

@@ -12,9 +12,7 @@ import { NoMatch } from './NoMatch';
 class App extends Component {
     constructor() {
         super();
-        this.state = {
-          playerName: ""
-        };    
+        this.state = {};    
       }
 
       callback = (name) => {
@@ -24,6 +22,17 @@ class App extends Component {
         );
     }
  
+    fetchPlayer = (name) => {
+        console.log(name)
+        const encodedvalue = encodeURIComponent(name)
+        console.log('trying to get info...')
+        fetch('/flask/playerPP?name=' + encodedvalue)
+        .then(response => response.json())
+        .then(message => {
+        this.setState(...message);
+        console.log(this.state)
+      });
+    }
     
 
     
@@ -33,10 +42,10 @@ class App extends Component {
             <div>
                 <React.Fragment>
                     <Router>
-                        <NavigationBar parentCallback={this.callback} />
+                        <NavigationBar parentCallback={this.fetchPlayer} />
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            <Route path="/player" render={(props) => <Player name={this.state.playerName} />} />
+                            <Route path="/player" render={(props) => <Player player={this.state} />} />
                             <Route component={NoMatch} />
                         </Switch>
                     </Router>
