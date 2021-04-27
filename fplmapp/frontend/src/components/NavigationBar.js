@@ -1,9 +1,5 @@
 import React, {useState} from 'react';
-<<<<<<< HEAD
 import {Nav, Navbar, FormControl, Button, Form} from 'react-bootstrap';
-=======
-import {Nav, Navbar, FormControl, Button} from 'react-bootstrap';
->>>>>>> main
 import styled from 'styled-components';
 import logo from '../logos/logo.png';
 import {useHistory} from 'react-router-dom';
