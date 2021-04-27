@@ -1,5 +1,5 @@
-import React, {useState, useCallback} from 'react';
-import {Nav, Navbar, Form, FormControl, Button} from 'react-bootstrap';
+import React, {useState} from 'react';
+import {Nav, Navbar, FormControl, Button} from 'react-bootstrap';
 import styled from 'styled-components';
 import logo from '../logos/logo.png';
 

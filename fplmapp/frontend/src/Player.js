@@ -1,17 +1,12 @@
-import React, { useEffect } from 'react';
-import styled from 'styled-components';
+import React from 'react';
 import logo from './logos/fplm_logo.png';
-import { useParams } from "react-router-dom";
 import { useState } from 'react';
-const GridWrapper = styled.div`
-  background:#f3f0e6
-  `;
 
 
   export const Player = ({name}) => {
 
     const [message, setMessage] = useState([]);
-    const [playerName, setPlayerName] = useState(name);
+  
   
     const encodedvalue = encodeURIComponent(name)
       fetch('/flask/playerPP?name=' + encodedvalue)
@@ -21,7 +16,7 @@ const GridWrapper = styled.div`
       console.log('loaded')
     });
   
-    if (message.length == 0) { //empty message
+    if (message.length === 0) { //empty message
       return ( 
         <header className="Home-header" >
           <img src={logo} className="Home-logo" alt="logo" />
