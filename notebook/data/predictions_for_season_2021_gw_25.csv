@@ -1,0 +1,303 @@
+,player,gw,season,position,team,opponent_team,was_home,minutes,relative_market_value_team_season,relative_market_value_opponent_team_season,total_points,predicted_points
+104900,Aaron Cresswell,25,2021,2,West Ham United,Tottenham Hotspur,True,90,,,2.0,3.2487874
+104901,Aaron Ramsdale,25,2021,1,Sheffield United,Fulham,False,90,,,3.0,3.778891
+104902,Aaron Wan-Bissaka,25,2021,2,Manchester United,Newcastle United,True,90,,,2.0,4.230538
+104903,Abdoulaye Doucouré,25,2021,3,Everton,Liverpool,False,90,,,3.0,3.1525097
+104904,Adama Traoré,25,2021,3,Wolverhampton Wanderers,Leeds,True,90,,,6.0,3.8379788
+104905,Adam Lallana,25,2021,3,Brighton and Hove Albion,Crystal Palace,True,22,,,1.0,1.3822851
+104906,Ademola Lookman,25,2021,3,Fulham,Sheffield United,True,90,,,11.0,4.04742
+104907,Ahmed El Mohamady,25,2021,2,Aston Villa,Leicester City,True,90,,,0.0,3.559135
+104908,Ainsley Maitland-Niles,25,2021,2,West Bromwich Albion,Burnley,False,90,,,6.0,2.7117934
+104909,Alexandre Lacazette,25,2021,4,Arsenal,Manchester City,True,17,,,1.0,1.2398784
+104910,Alexis Mac Allister,25,2021,3,Brighton and Hove Albion,Crystal Palace,True,67,,,2.0,2.9637465
+104911,Alex Iwobi,25,2021,3,Everton,Liverpool,False,4,,,1.0,0.4160335
+104912,Alex McCarthy,25,2021,1,Southampton,Chelsea,True,90,,,1.0,3.3739424
+104913,Alex McCarthy,25,2021,1,Southampton,Leeds,False,90,,,2.0,3.3806643
+104914,Alireza Jahanbakhsh,25,2021,3,Brighton and Hove Albion,Crystal Palace,True,9,,,1.0,0.5790417
+104915,Alisson Ramses Becker,25,2021,1,Liverpool,Everton,True,90,,,2.0,4.1335316
+104916,Allan Saint-Maximin,25,2021,3,Newcastle United,Manchester United,False,76,,,7.0,3.0833583
+104917,Alphonse Areola,25,2021,1,Fulham,Sheffield United,True,90,,,6.0,4.1479716
+104918,Andrew Robertson,25,2021,2,Liverpool,Everton,True,90,,,1.0,5.186223
+104919,Andros Townsend,25,2021,3,Crystal Palace,Brighton and Hove Albion,False,90,,,5.0,4.3284698
+104920,André Filipe Tavares Gomes,25,2021,3,Everton,Liverpool,False,58,,,0.0,1.6176777
+104921,André-Frank Zambo Anguissa,25,2021,3,Fulham,Sheffield United,True,90,,,2.0,3.3327913
+104922,Anthony Martial,25,2021,4,Manchester United,Newcastle United,True,69,,,2.0,5.121164
+104923,Antonee Robinson,25,2021,2,Fulham,Sheffield United,True,90,,,6.0,3.9455562
+104924,Antonio Rüdiger,25,2021,2,Chelsea,Southampton,False,90,,,2.0,4.3100076
+104925,Anwar El Ghazi,25,2021,3,Aston Villa,Leicester City,True,66,,,2.0,2.8292482
+104926,Ashley Westwood,25,2021,3,Burnley,West Bromwich Albion,True,90,,,3.0,3.982398
+104927,Bamidele Alli,25,2021,3,Tottenham Hotspur,West Ham United,False,13,,,1.0,0.65487444
+104928,Ben Godfrey,25,2021,2,Everton,Liverpool,False,90,,,6.0,1.8835473
+104929,Ben Johnson,25,2021,2,West Ham United,Tottenham Hotspur,True,8,,,1.0,0.162992
+104930,Ben Mee,25,2021,2,Burnley,West Bromwich Albion,True,90,,,5.0,4.9501214
+104931,Ben White,25,2021,2,Brighton and Hove Albion,Crystal Palace,True,90,,,1.0,4.096191
+104932,Bernardo Mota Veiga de Carvalho e Silva,25,2021,3,Manchester City,Arsenal,False,90,,,2.0,4.430451
+104933,Bernd Leno,25,2021,1,Arsenal,Manchester City,True,90,,,2.0,2.8840818
+104934,Bertrand Traoré,25,2021,3,Aston Villa,Leicester City,True,90,,,8.0,4.9210606
+104935,Billy Sharp,25,2021,4,Sheffield United,Fulham,False,90,,,2.0,5.197252
+104936,Bobby Decordova-Reid,25,2021,4,Fulham,Sheffield United,True,1,,,1.0,0.12841856
+104937,Bruno Miguel Borges Fernandes,25,2021,3,Manchester United,Newcastle United,True,90,,,12.0,6.1165004
+104938,Bukayo Saka,25,2021,3,Arsenal,Manchester City,True,90,,,2.0,3.2857265
+104939,Callum Hudson-Odoi,25,2021,3,Chelsea,Southampton,False,30,,,1.0,1.7886686
+104940,Charlie Taylor,25,2021,2,Burnley,West Bromwich Albion,True,90,,,6.0,5.0250006
+104941,Cheikhou Kouyaté,25,2021,3,Crystal Palace,Brighton and Hove Albion,False,90,,,2.0,3.081184
+104942,Che Adams,25,2021,4,Southampton,Chelsea,True,5,,,1.0,0.4534303
+104943,Che Adams,25,2021,4,Southampton,Leeds,False,90,,,2.0,3.926404
+104944,Christian Benteke,25,2021,4,Crystal Palace,Brighton and Hove Albion,False,15,,,8.0,0.82300043
+104945,Chris Basham,25,2021,2,Sheffield United,Fulham,False,50,,,1.0,1.5964549
+104946,Ciaran Clark,25,2021,2,Newcastle United,Manchester United,False,90,,,1.0,2.8603666
+104947,Conor Coady,25,2021,2,Wolverhampton Wanderers,Leeds,True,90,,,6.0,3.5813622
+104948,Conor Gallagher,25,2021,3,West Bromwich Albion,Burnley,False,90,,,3.0,2.8400886
+104949,Conor Townsend,25,2021,2,West Bromwich Albion,Burnley,False,90,,,6.0,3.0425987
+104950,Craig Dawson,25,2021,2,West Ham United,Tottenham Hotspur,True,90,,,2.0,3.1540046
+104951,Curtis Jones,25,2021,3,Liverpool,Everton,True,62,,,2.0,2.8685408
+104952,César Azpilicueta,25,2021,2,Chelsea,Southampton,False,90,,,3.0,4.5059996
+104953,Daniel Amartey,25,2021,2,Leicester City,Aston Villa,False,14,,,1.0,0.26697648
+104954,Daniel Ceballos Fernández,25,2021,3,Arsenal,Manchester City,True,4,,,1.0,0.21942925
+104955,Daniel James,25,2021,3,Manchester United,Newcastle United,True,87,,,8.0,4.232495
+104956,Daniel N'Lundulu,25,2021,4,Southampton,Chelsea,True,1,,,1.0,0.01951325
+104957,Danny Ings,25,2021,4,Southampton,Chelsea,True,84,,,2.0,4.7206388
+104958,Danny Ings,25,2021,4,Southampton,Leeds,False,32,,,1.0,1.7194257
+104959,Danny Welbeck,25,2021,4,Brighton and Hove Albion,Crystal Palace,True,45,,,1.0,2.5427825
+104960,Dan Burn,25,2021,2,Brighton and Hove Albion,Crystal Palace,True,90,,,0.0,3.8938618
+104961,Dara O'Shea,25,2021,2,West Bromwich Albion,Burnley,False,58,,,1.0,1.2638083
+104962,Darnell Furlong,25,2021,2,West Bromwich Albion,Burnley,False,90,,,6.0,3.0727754
+104963,David de Gea,25,2021,1,Manchester United,Newcastle United,True,90,,,3.0,3.98238
+104964,David Luiz Moreira Marinho,25,2021,2,Arsenal,Manchester City,True,8,,,1.0,0.19901681
+104965,David McGoldrick,25,2021,4,Sheffield United,Fulham,False,16,,,0.0,0.7254319
+104966,Davinson Sánchez,25,2021,2,Tottenham Hotspur,West Ham United,False,90,,,1.0,3.4936538
+104967,Declan Rice,25,2021,3,West Ham United,Tottenham Hotspur,True,90,,,2.0,3.088437
+104968,Diego Llorente,25,2021,2,Leeds,Southampton,True,90,,,6.0,4.226456
+104969,Divock Origi,25,2021,4,Liverpool,Everton,True,3,,,1.0,0.2742467
+104970,Dominic Calvert-Lewin,25,2021,4,Everton,Liverpool,False,28,,,4.0,1.4470882
+104971,Douglas Luiz Soares de Paulo,25,2021,3,Aston Villa,Leicester City,True,80,,,1.0,2.9456744
+104972,Dwight Gayle,25,2021,4,Newcastle United,Manchester United,False,11,,,1.0,0.6012349
+104973,Dwight McNeil,25,2021,3,Burnley,West Bromwich Albion,True,90,,,3.0,4.3952065
+104974,Eberechi Eze,25,2021,3,Crystal Palace,Brighton and Hove Albion,False,90,,,2.0,4.13232
+104975,Ederson Santana de Moraes,25,2021,1,Manchester City,Arsenal,False,90,,,6.0,4.107933
+104976,Edouard Mendy,25,2021,1,Chelsea,Southampton,False,90,,,2.0,5.1156707
+104977,Emile Smith Rowe,25,2021,3,Arsenal,Manchester City,True,17,,,1.0,0.8429495
+104978,Emiliano Martínez,25,2021,1,Aston Villa,Leicester City,True,90,,,2.0,4.4720454
+104979,Emil Krafth,25,2021,2,Newcastle United,Manchester United,False,90,,,1.0,2.7873516
+104980,Enda Stevens,25,2021,2,Sheffield United,Fulham,False,90,,,2.0,4.0433187
+104981,Eric Dier,25,2021,2,Tottenham Hotspur,West Ham United,False,90,,,1.0,2.8645246
+104982,Erik Lamela,25,2021,3,Tottenham Hotspur,West Ham United,False,45,,,0.0,2.3258266
+104983,Ethan Ampadu,25,2021,2,Sheffield United,Fulham,False,90,,,2.0,3.3752556
+104984,Ezgjan Alioski,25,2021,2,Leeds,Wolverhampton Wanderers,False,9,,,1.0,0.1603775
+104985,Ezgjan Alioski,25,2021,2,Leeds,Southampton,True,31,,,1.0,1.2212803
+104986,Ezri Konsa Ngoyo,25,2021,2,Aston Villa,Leicester City,True,90,,,1.0,3.6846013
+104987,Fabio Silva,25,2021,4,Wolverhampton Wanderers,Leeds,True,3,,,1.0,0.21230316
+104988,Fernando Luiz Rosa,25,2021,2,Manchester City,Arsenal,False,90,,,9.0,2.5872936
+104989,Fernando Marçal,25,2021,2,Wolverhampton Wanderers,Leeds,True,22,,,1.0,0.7578378
+104990,Frederico Rodrigues de Paula Santos,25,2021,3,Manchester United,Newcastle United,True,90,,,2.0,2.7572799
+104991,Gabriel Fernando de Jesus,25,2021,4,Manchester City,Arsenal,False,27,,,1.0,1.855329
+104992,Gareth Bale,25,2021,3,Tottenham Hotspur,West Ham United,False,45,,,4.0,2.1022696
+104993,Gary Cahill,25,2021,2,Crystal Palace,Brighton and Hove Albion,False,90,,,2.0,3.9918861
+104994,George Baldock,25,2021,2,Sheffield United,Fulham,False,90,,,1.0,3.9967036
+104995,Georginio Wijnaldum,25,2021,3,Liverpool,Everton,True,90,,,2.0,3.6223612
+104996,Granit Xhaka,25,2021,3,Arsenal,Manchester City,True,90,,,1.0,2.8308995
+104997,Gylfi Sigurdsson,25,2021,3,Everton,Liverpool,False,31,,,6.0,1.3548894
+104998,Hakim Ziyech,25,2021,3,Chelsea,Southampton,False,14,,,1.0,0.7737777
+104999,Hamza Choudhury,25,2021,3,Leicester City,Aston Villa,False,2,,,1.0,0.06432438
+105000,Harrison Reed,25,2021,3,Fulham,Sheffield United,True,90,,,3.0,3.4384327
+105001,Harry Kane,25,2021,4,Tottenham Hotspur,West Ham United,False,90,,,2.0,5.9053617
+105002,Harry Maguire,25,2021,2,Manchester United,Newcastle United,True,90,,,5.0,3.7659883
+105003,Harvey Barnes,25,2021,3,Leicester City,Aston Villa,False,90,,,13.0,4.367683
+105004,Heung-Min Son,25,2021,3,Tottenham Hotspur,West Ham United,False,90,,,2.0,5.5110626
+105005,Hugo Lloris,25,2021,1,Tottenham Hotspur,West Ham United,False,90,,,1.0,4.197678
+105006,Héctor Bellerín,25,2021,2,Arsenal,Manchester City,True,90,,,1.0,2.6570005
+105007,Hélder Wander Sousa de Azevedo e Costa,25,2021,3,Leeds,Wolverhampton Wanderers,False,9,,,1.0,0.5046686
+105008,Hélder Wander Sousa de Azevedo e Costa,25,2021,3,Leeds,Southampton,True,45,,,7.0,2.4218729
+105009,Ilkay Gündogan,25,2021,3,Manchester City,Arsenal,False,90,,,3.0,4.3275433
+105010,Illan Meslier,25,2021,1,Leeds,Wolverhampton Wanderers,False,90,,,1.0,3.78794
+105011,Illan Meslier,25,2021,1,Leeds,Southampton,True,90,,,9.0,4.3774014
+105012,Isaac Hayden,25,2021,3,Newcastle United,Manchester United,False,90,,,1.0,2.8724675
+105013,Issa Diop,25,2021,2,West Ham United,Tottenham Hotspur,True,90,,,1.0,3.2159443
+105014,Ivan Ricardo Neves Abreu Cavaleiro,25,2021,3,Fulham,Sheffield United,True,77,,,3.0,3.1823578
+105015,Jack Cork,25,2021,3,Burnley,West Bromwich Albion,True,90,,,2.0,3.293538
+105016,Jack Harrison,25,2021,3,Leeds,Wolverhampton Wanderers,False,80,,,2.0,4.191195
+105017,Jack Harrison,25,2021,3,Leeds,Southampton,True,45,,,1.0,2.469609
+105018,Jacob Murphy,25,2021,3,Newcastle United,Manchester United,False,13,,,1.0,0.60071886
+105019,Jacob Ramsey,25,2021,3,Aston Villa,Leicester City,True,14,,,1.0,0.9125246
+105020,Jairo Riedewald,25,2021,3,Crystal Palace,Brighton and Hove Albion,False,90,,,2.0,3.2143798
+105021,Jamaal Lascelles,25,2021,2,Newcastle United,Manchester United,False,90,,,1.0,3.0292687
+105022,Jamal Lewis,25,2021,2,Newcastle United,Manchester United,False,90,,,1.0,2.5727143
+105023,James Maddison,25,2021,3,Leicester City,Aston Villa,False,63,,,9.0,2.6431894
+105024,James McCarthy,25,2021,3,Crystal Palace,Brighton and Hove Albion,False,1,,,1.0,-0.020149827
+105025,James Rodríguez,25,2021,3,Everton,Liverpool,False,61,,,6.0,2.1873145
+105026,James Tarkowski,25,2021,2,Burnley,West Bromwich Albion,True,90,,,9.0,4.831898
+105027,James Ward-Prowse,25,2021,3,Southampton,Chelsea,True,90,,,2.0,4.10636
+105028,James Ward-Prowse,25,2021,3,Southampton,Leeds,False,90,,,2.0,4.118055
+105029,Jamie Shackleton,25,2021,3,Leeds,Wolverhampton Wanderers,False,65,,,2.0,2.8986828
+105030,Jamie Vardy,25,2021,4,Leicester City,Aston Villa,False,90,,,5.0,5.4999695
+105031,Jannik Vestergaard,25,2021,2,Southampton,Chelsea,True,90,,,3.0,3.3776188
+105032,Jannik Vestergaard,25,2021,2,Southampton,Leeds,False,90,,,0.0,3.246119
+105033,Jan Bednarek,25,2021,2,Southampton,Chelsea,True,90,,,2.0,3.175469
+105034,Jan Bednarek,25,2021,2,Southampton,Leeds,False,90,,,1.0,3.0721407
+105035,Japhet Tanganga,25,2021,2,Tottenham Hotspur,West Ham United,False,45,,,1.0,1.2823122
+105036,Jarrod Bowen,25,2021,3,West Ham United,Tottenham Hotspur,True,64,,,2.0,2.4394598
+105037,Jayden Bogle,25,2021,2,Sheffield United,Fulham,False,10,,,1.0,0.2219218
+105038,Jay Rodriguez,25,2021,4,Burnley,West Bromwich Albion,True,80,,,2.0,5.1513963
+105039,Jean-Philippe Mateta,25,2021,4,Crystal Palace,Brighton and Hove Albion,False,74,,,8.0,4.423716
+105040,Jesse Lingard,25,2021,3,West Ham United,Tottenham Hotspur,True,90,,,10.0,3.5992732
+105041,Joachim Andersen,25,2021,2,Fulham,Sheffield United,True,90,,,7.0,4.239002
+105042,Joelinton Cássio Apolinário de Lira,25,2021,4,Newcastle United,Manchester United,False,55,,,0.0,1.4760969
+105043,Joel Mumbongo,25,2021,4,Burnley,West Bromwich Albion,True,9,,,1.0,0.39790177
+105044,Joel Ward,25,2021,2,Crystal Palace,Brighton and Hove Albion,False,90,,,2.0,3.54709
+105045,John Fleck,25,2021,3,Sheffield United,Fulham,False,90,,,2.0,3.9782724
+105046,John Lundstram,25,2021,3,Sheffield United,Fulham,False,73,,,2.0,3.3660612
+105047,John McGinn,25,2021,3,Aston Villa,Leicester City,True,90,,,5.0,3.1503468
+105048,John Stones,25,2021,2,Manchester City,Arsenal,False,90,,,6.0,3.5093145
+105049,Jonathan Castro Otto,25,2021,2,Wolverhampton Wanderers,Leeds,True,59,,,1.0,2.2873142
+105050,Jonjo Shelvey,25,2021,3,Newcastle United,Manchester United,False,90,,,2.0,3.1908312
+105051,Jonny Evans,25,2021,2,Leicester City,Aston Villa,False,90,,,2.0,2.9507494
+105052,Jordan Ayew,25,2021,4,Crystal Palace,Brighton and Hove Albion,False,90,,,5.0,3.8727503
+105053,Jordan Henderson,25,2021,3,Liverpool,Everton,True,29,,,1.0,1.2302623
+105054,Jordan Pickford,25,2021,1,Everton,Liverpool,False,90,,,11.0,3.189796
+105055,Jorge Luiz Frello Filho,25,2021,3,Chelsea,Southampton,False,14,,,1.0,0.9500687
+105056,Joseph Willock,25,2021,3,Newcastle United,Manchester United,False,90,,,2.0,3.4469452
+105057,Josh Brownhill,25,2021,3,Burnley,West Bromwich Albion,True,90,,,3.0,3.3208241
+105058,Josh Maja,25,2021,4,Fulham,Sheffield United,True,85,,,2.0,4.4188952
+105059,João Filipe Iria Santos Moutinho,25,2021,3,Wolverhampton Wanderers,Leeds,True,90,,,3.0,3.397613
+105060,João Pedro Cavaco Cancelo,25,2021,2,Manchester City,Arsenal,False,90,,,5.0,3.8756943
+105061,Joël Veltman,25,2021,2,Brighton and Hove Albion,Crystal Palace,True,90,,,7.0,4.138656
+105062,Juan Mata,25,2021,3,Manchester United,Newcastle United,True,2,,,1.0,0.18560123
+105063,Karl Darlow,25,2021,1,Newcastle United,Manchester United,False,90,,,2.0,3.5003595
+105064,Kasper Schmeichel,25,2021,1,Leicester City,Aston Villa,False,90,,,2.0,3.6579986
+105065,Kean Bryan,25,2021,2,Sheffield United,Fulham,False,90,,,2.0,4.147998
+105066,Kenny Tete,25,2021,2,Fulham,Sheffield United,True,12,,,1.0,0.22828043
+105067,Kevin De Bruyne,25,2021,3,Manchester City,Arsenal,False,62,,,3.0,4.085059
+105068,Kieran Tierney,25,2021,2,Arsenal,Manchester City,True,90,,,2.0,2.5815334
+105069,Kurt Zouma,25,2021,2,Chelsea,Southampton,False,90,,,2.0,3.920412
+105070,Kyle Bartley,25,2021,2,West Bromwich Albion,Burnley,False,90,,,6.0,3.0209036
+105071,Leander Dendoncker,25,2021,3,Wolverhampton Wanderers,Leeds,True,90,,,3.0,3.4472213
+105072,Leandro Trossard,25,2021,3,Brighton and Hove Albion,Crystal Palace,True,90,,,2.0,4.8799653
+105073,Lewis Dunk,25,2021,2,Brighton and Hove Albion,Crystal Palace,True,90,,,1.0,4.288865
+105074,Liam Cooper,25,2021,2,Leeds,Wolverhampton Wanderers,False,90,,,2.0,2.5227835
+105075,Liam Cooper,25,2021,2,Leeds,Southampton,True,90,,,6.0,3.4294057
+105076,Lucas Digne,25,2021,2,Everton,Liverpool,False,90,,,7.0,2.3955066
+105077,Lucas Rodrigues Moura da Silva,25,2021,3,Tottenham Hotspur,West Ham United,False,90,,,8.0,4.2164707
+105078,Lukasz Fabianski,25,2021,1,West Ham United,Tottenham Hotspur,True,90,,,3.0,3.6593485
+105079,Luka Milivojevic,25,2021,3,Crystal Palace,Brighton and Hove Albion,False,90,,,2.0,4.144102
+105080,Luke Ayling,25,2021,2,Leeds,Wolverhampton Wanderers,False,90,,,2.0,2.6403437
+105081,Luke Ayling,25,2021,2,Leeds,Southampton,True,90,,,6.0,3.8046947
+105082,Luke Shaw,25,2021,2,Manchester United,Newcastle United,True,90,,,2.0,4.6073184
+105083,Luke Thomas,25,2021,2,Leicester City,Aston Villa,False,90,,,2.0,2.8601377
+105084,Mahmoud Ahmed Ibrahim Hassan,25,2021,3,Aston Villa,Leicester City,True,23,,,1.0,1.3449783
+105085,Marcos Alonso,25,2021,2,Chelsea,Southampton,False,90,,,1.0,4.854091
+105086,Marcus Rashford,25,2021,3,Manchester United,Newcastle United,True,88,,,12.0,4.6152267
+105087,Mario Lemina,25,2021,3,Fulham,Sheffield United,True,4,,,1.0,0.11131573
+105088,Mark Noble,25,2021,3,West Ham United,Tottenham Hotspur,True,1,,,1.0,0.15978062
+105089,Martin Ødegaard,25,2021,3,Arsenal,Manchester City,True,72,,,2.0,2.4985206
+105090,Mason Greenwood,25,2021,3,Manchester United,Newcastle United,True,20,,,1.0,1.4334824
+105091,Mason Holgate,25,2021,2,Everton,Liverpool,False,90,,,6.0,2.3319404
+105092,Mason Mount,25,2021,3,Chelsea,Southampton,False,90,,,10.0,4.443902
+105093,Matej Vydra,25,2021,4,Burnley,West Bromwich Albion,True,90,,,2.0,5.17194
+105094,Mateo Kovacic,25,2021,3,Chelsea,Southampton,False,75,,,2.0,2.4491186
+105095,Mateusz Klich,25,2021,3,Leeds,Wolverhampton Wanderers,False,80,,,2.0,3.6956525
+105096,Mateusz Klich,25,2021,3,Leeds,Southampton,True,58,,,1.0,2.844569
+105097,Matheus Pereira,25,2021,3,West Bromwich Albion,Burnley,False,90,,,3.0,3.796916
+105098,Matthew Lowton,25,2021,2,Burnley,West Bromwich Albion,True,90,,,6.0,4.4922867
+105099,Matt Doherty,25,2021,2,Tottenham Hotspur,West Ham United,False,45,,,1.0,1.523572
+105100,Matt Phillips,25,2021,3,West Bromwich Albion,Burnley,False,31,,,1.0,1.2296507
+105101,Matt Targett,25,2021,2,Aston Villa,Leicester City,True,90,,,1.0,3.5282726
+105102,Mbaye Diagne,25,2021,4,West Bromwich Albion,Burnley,False,90,,,2.0,4.195572
+105103,Michael Keane,25,2021,2,Everton,Liverpool,False,90,,,7.0,2.0851715
+105104,Michail Antonio,25,2021,4,West Ham United,Tottenham Hotspur,True,90,,,7.0,4.85934
+105105,Miguel Almirón,25,2021,3,Newcastle United,Manchester United,False,78,,,2.0,3.3000917
+105106,Mohamed Naser El Sayed Elneny,25,2021,3,Arsenal,Manchester City,True,85,,,2.0,2.7965462
+105107,Mohamed Salah,25,2021,3,Liverpool,Everton,True,90,,,2.0,6.7204275
+105108,Mohammed Salisu,25,2021,2,Southampton,Chelsea,True,90,,,2.0,3.355732
+105109,Mohammed Salisu,25,2021,2,Southampton,Leeds,False,90,,,1.0,3.2399292
+105110,Morgan Sanson,25,2021,3,Aston Villa,Leicester City,True,9,,,1.0,0.5345466
+105111,Moussa Djenepo,25,2021,3,Southampton,Chelsea,True,90,,,2.0,3.8102336
+105112,Moussa Djenepo,25,2021,3,Southampton,Leeds,False,20,,,0.0,1.1923945
+105113,N'Golo Kanté,25,2021,3,Chelsea,Southampton,False,90,,,2.0,2.7682583
+105114,Nampalys Mendy,25,2021,3,Leicester City,Aston Villa,False,26,,,1.0,0.6247153
+105115,Nathaniel Phillips,25,2021,2,Liverpool,Everton,True,60,,,2.0,2.517593
+105116,Nathan Redmond,25,2021,3,Southampton,Chelsea,True,90,,,5.0,3.693739
+105117,Nathan Redmond,25,2021,3,Southampton,Leeds,False,57,,,1.0,2.008153
+105118,Nathan Tella,25,2021,3,Southampton,Chelsea,True,14,,,1.0,0.6193234
+105119,Nathan Tella,25,2021,3,Southampton,Leeds,False,57,,,1.0,2.660619
+105120,Neal Maupay,25,2021,4,Brighton and Hove Albion,Crystal Palace,True,90,,,2.0,4.326358
+105121,Nemanja Matic,25,2021,3,Manchester United,Newcastle United,True,90,,,2.0,2.8075833
+105122,Nick Pope,25,2021,1,Burnley,West Bromwich Albion,True,90,,,8.0,5.535734
+105123,Nicolas Pépé,25,2021,3,Arsenal,Manchester City,True,72,,,2.0,2.5769913
+105124,Nélson Cabral Semedo,25,2021,2,Wolverhampton Wanderers,Leeds,True,90,,,7.0,3.871441
+105125,Okay Yokuslu,25,2021,3,West Bromwich Albion,Burnley,False,90,,,3.0,3.7981205
+105126,Ola Aina,25,2021,2,Fulham,Sheffield United,True,90,,,8.0,4.1305714
+105127,Oleksandr Zinchenko,25,2021,2,Manchester City,Arsenal,False,90,,,8.0,3.442995
+105128,Oliver McBurnie,25,2021,4,Sheffield United,Fulham,False,90,,,2.0,3.699358
+105129,Oliver Norwood,25,2021,3,Sheffield United,Fulham,False,39,,,1.0,1.0385478
+105130,Ollie Watkins,25,2021,4,Aston Villa,Leicester City,True,90,,,2.0,4.6781583
+105131,Oluwasemilogo Adesewo Ibidapo Ajayi,25,2021,2,West Bromwich Albion,Burnley,False,29,,,-2.0,0.6065186
+105132,Oriol Romeu Vidal,25,2021,3,Southampton,Chelsea,True,90,,,2.0,2.7072127
+105133,Oriol Romeu Vidal,25,2021,3,Southampton,Leeds,False,69,,,2.0,2.0997527
+105134,Ozan Kabak,25,2021,2,Liverpool,Everton,True,90,,,0.0,4.3684573
+105135,Pablo Fornals,25,2021,3,West Ham United,Tottenham Hotspur,True,81,,,4.0,3.4366055
+105136,Pablo Hernández Domínguez,25,2021,3,Leeds,Wolverhampton Wanderers,False,24,,,1.0,1.385963
+105137,Pablo Hernández Domínguez,25,2021,3,Leeds,Southampton,True,15,,,1.0,1.0192626
+105138,Pablo Marí,25,2021,2,Arsenal,Manchester City,True,90,,,2.0,2.5257368
+105139,Pascal Groß,25,2021,3,Brighton and Hove Albion,Crystal Palace,True,80,,,2.0,5.310912
+105140,Pascal Struijk,25,2021,2,Leeds,Wolverhampton Wanderers,False,90,,,2.0,2.9745796
+105141,Pascal Struijk,25,2021,2,Leeds,Southampton,True,90,,,6.0,4.2888584
+105142,Patrick Bamford,25,2021,4,Leeds,Wolverhampton Wanderers,False,90,,,2.0,4.522678
+105143,Patrick Bamford,25,2021,4,Leeds,Southampton,True,90,,,6.0,5.3450065
+105144,Pedro Lomba Neto,25,2021,3,Wolverhampton Wanderers,Leeds,True,90,,,2.0,4.6359644
+105145,Phil Jagielka,25,2021,2,Sheffield United,Fulham,False,79,,,2.0,3.9000807
+105146,Pierre-Emerick Aubameyang,25,2021,3,Arsenal,Manchester City,True,90,,,2.0,4.5263004
+105147,Pierre-Emile Højbjerg,25,2021,3,Tottenham Hotspur,West Ham United,False,90,,,1.0,2.834744
+105148,Raheem Sterling,25,2021,3,Manchester City,Arsenal,False,90,,,8.0,5.5836625
+105149,Raphael Dias Belloli,25,2021,3,Leeds,Wolverhampton Wanderers,False,90,,,4.0,4.3633957
+105150,Raphael Dias Belloli,25,2021,3,Leeds,Southampton,True,90,,,8.0,5.465857
+105151,Rayan Ait Nouri,25,2021,2,Wolverhampton Wanderers,Leeds,True,8,,,1.0,0.26600003
+105152,Reece James,25,2021,2,Chelsea,Southampton,False,90,,,3.0,4.2937245
+105153,Ricardo Domingos Barbosa Pereira,25,2021,2,Leicester City,Aston Villa,False,75,,,2.0,2.8842244
+105154,Richarlison de Andrade,25,2021,4,Everton,Liverpool,False,85,,,8.0,3.663989
+105155,Riyad Mahrez,25,2021,3,Manchester City,Arsenal,False,90,,,7.0,5.4073887
+105156,Roberto Firmino,25,2021,4,Liverpool,Everton,True,90,,,2.0,4.9416313
+105157,Robert Sánchez,25,2021,1,Brighton and Hove Albion,Crystal Palace,True,90,,,1.0,4.6375804
+105158,Rob Holding,25,2021,2,Arsenal,Manchester City,True,81,,,2.0,2.3430142
+105159,Romain Saïss,25,2021,2,Wolverhampton Wanderers,Leeds,True,90,,,6.0,4.123611
+105160,Ross Barkley,25,2021,3,Aston Villa,Leicester City,True,75,,,2.0,3.5763087
+105161,Ruben Loftus-Cheek,25,2021,3,Fulham,Sheffield United,True,90,,,3.0,4.04744
+105162,Rui Pedro dos Santos Patrício,25,2021,1,Wolverhampton Wanderers,Leeds,True,90,,,11.0,3.9194674
+105163,Ryan Bertrand,25,2021,2,Southampton,Chelsea,True,90,,,2.0,3.4234757
+105164,Ryan Bertrand,25,2021,2,Southampton,Leeds,False,90,,,1.0,3.3196697
+105165,Ryan Fraser,25,2021,3,Newcastle United,Manchester United,False,35,,,1.0,1.6171691
+105166,Rúben Diogo da Silva Neves,25,2021,3,Wolverhampton Wanderers,Leeds,True,90,,,3.0,3.6070714
+105167,Rúben Santos Gato Alves Dias,25,2021,2,Manchester City,Arsenal,False,90,,,7.0,4.090559
+105168,Sadio Mané,25,2021,3,Liverpool,Everton,True,90,,,1.0,6.2460084
+105169,Sam Johnstone,25,2021,1,West Bromwich Albion,Burnley,False,90,,,7.0,3.3555932
+105170,Saïd Benrahma,25,2021,3,West Ham United,Tottenham Hotspur,True,25,,,1.0,1.3314857
+105171,Seamus Coleman,25,2021,2,Everton,Liverpool,False,90,,,6.0,2.5931354
+105172,Sergio Reguilón,25,2021,2,Tottenham Hotspur,West Ham United,False,76,,,0.0,3.7088876
+105173,Shola Shoretire,25,2021,3,Manchester United,Newcastle United,True,1,,,1.0,0.16396546
+105174,Steven Alzate,25,2021,3,Brighton and Hove Albion,Crystal Palace,True,45,,,1.0,1.8681467
+105175,Stuart Armstrong,25,2021,3,Southampton,Leeds,False,90,,,2.0,4.7433844
+105176,Stuart Dallas,25,2021,2,Leeds,Wolverhampton Wanderers,False,90,,,2.0,3.359065
+105177,Stuart Dallas,25,2021,2,Leeds,Southampton,True,90,,,15.0,4.782614
+105178,Takumi Minamino,25,2021,3,Southampton,Chelsea,True,75,,,9.0,3.716846
+105179,Takumi Minamino,25,2021,3,Southampton,Leeds,False,32,,,1.0,1.473975
+105180,Tammy Abraham,25,2021,4,Chelsea,Southampton,False,45,,,1.0,2.2992535
+105181,Tanguy Ndombele,25,2021,3,Tottenham Hotspur,West Ham United,False,90,,,2.0,3.7625728
+105182,Thiago Alcántara do Nascimento,25,2021,3,Liverpool,Everton,True,86,,,2.0,3.4654803
+105183,Timothy Castagne,25,2021,2,Leicester City,Aston Villa,False,90,,,2.0,3.2723794
+105184,Timo Werner,25,2021,4,Chelsea,Southampton,False,90,,,2.0,5.2353663
+105185,Tomas Soucek,25,2021,3,West Ham United,Tottenham Hotspur,True,90,,,1.0,4.132164
+105186,Tom Davies,25,2021,3,Everton,Liverpool,False,90,,,3.0,2.5283644
+105187,Tosin Adarabioyo,25,2021,2,Fulham,Sheffield United,True,90,,,6.0,3.830142
+105188,Trent Alexander-Arnold,25,2021,2,Liverpool,Everton,True,90,,,1.0,4.814323
+105189,Tyler Roberts,25,2021,3,Leeds,Wolverhampton Wanderers,False,90,,,2.0,4.1273494
+105190,Tyler Roberts,25,2021,3,Leeds,Southampton,True,74,,,6.0,4.8597217
+105191,Tyrick Mitchell,25,2021,2,Crystal Palace,Brighton and Hove Albion,False,90,,,2.0,3.392023
+105192,Tyrone Mings,25,2021,2,Aston Villa,Leicester City,True,90,,,1.0,3.7995272
+105193,Vicente Guaita,25,2021,1,Crystal Palace,Brighton and Hove Albion,False,90,,,3.0,4.3691454
+105194,Victor Lindelöf,25,2021,2,Manchester United,Newcastle United,True,90,,,2.0,3.5760684
+105195,Vladimir Coufal,25,2021,2,West Ham United,Tottenham Hotspur,True,90,,,2.0,3.2397618
+105196,Wilfred Ndidi,25,2021,3,Leicester City,Aston Villa,False,90,,,1.0,2.7194676
+105197,Willian José Da Silva,25,2021,4,Wolverhampton Wanderers,Leeds,True,86,,,2.0,4.2097945
+105198,Xherdan Shaqiri,25,2021,3,Liverpool,Everton,True,27,,,1.0,2.1757274
+105199,Youri Tielemans,25,2021,3,Leicester City,Aston Villa,False,87,,,2.0,3.7322478
+105200,Yves Bissouma,25,2021,3,Brighton and Hove Albion,Crystal Palace,True,90,,,2.0,2.852076
+105201,Çaglar Söyüncü,25,2021,2,Leicester City,Aston Villa,False,90,,,2.0,2.9743762
