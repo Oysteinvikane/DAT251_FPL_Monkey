@@ -12,7 +12,7 @@ path = Path('./')
 @app.route('/flask/playerPP', methods=['GET'])
 def player():
     name = request.args.get('name')
-    df = pd.read_csv(path/'data/predictions_for_season_1920_gw_20.csv', index_col=0)
+    df = pd.read_csv(path/'data/predictions_for_season_2021_gw_25.csv', index_col=0)
     if name : 
         arr = np.array([name])
     else : 
@@ -23,9 +23,9 @@ def player():
 
 @app.route('/flask/players', methods=['GET'])
 def getPlayers():
-    df = pd.read_csv(path/'data/predictions_for_season_1920_gw_20.csv', index_col=0)
+    df = pd.read_csv(path/'data/predictions_for_season_2021_gw_25.csv', index_col=0)
     players = df['player'].reset_index(drop=True)
-    return players.to_json(force_ascii=False, orient='index') # orient=records for a list
+    return players.to_json(force_ascii=False, orient='records') # orient=records for a list
 
 
 
