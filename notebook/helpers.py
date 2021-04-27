@@ -489,8 +489,10 @@ def create_lag_train(df, cat_vars, cont_vars, player_lag_vars, team_lag_vars, de
     
     # get the validation start and end indexes
     valid_start, valid_end = validation_gw_idx(df, valid_season, valid_gw, valid_len)
-    train_idx = range(valid_start)
-    valid_idx = range(valid_start, valid_end + 1)    
+   
+    train_idx = np.arange(0, valid_start, 1)
+    
+    valid_idx = np.arange(valid_start, valid_end + 1, 1)    
 
     # split out train and validation sets
     # do not include lag vars in validation set
