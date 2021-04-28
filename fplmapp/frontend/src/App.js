@@ -12,16 +12,9 @@ import { NoMatch } from './NoMatch';
 class App extends Component {
     constructor() {
         super();
-        this.state = {};    
+        this.state = [];    
       }
 
-      callback = (name) => {
-        this.setState(
-            {playerName: name}, 
-            function () {console.log("Playername: " + this.state.playerName)}
-        );
-    }
- 
     fetchPlayer = (name) => {
         console.log(name)
         const encodedvalue = encodeURIComponent(name)
@@ -29,7 +22,7 @@ class App extends Component {
         fetch('/flask/playerPP?name=' + encodedvalue)
         .then(response => response.json())
         .then(message => {
-        this.setState(...message);
+        this.setState(message);
         console.log(this.state)
       });
     }
