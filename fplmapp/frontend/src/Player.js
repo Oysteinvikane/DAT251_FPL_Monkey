@@ -3,7 +3,7 @@ import logo from './logos/fplm_logo.png';
 
   export const Player = ({player}) => {
 
-    if (player.player === undefined) { //empty message
+    if (player.player === undefined) { //No player selected
       return ( 
         <header className="Home-header" >
           <img src={logo} className="Home-logo" alt="logo" />
